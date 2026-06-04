@@ -1,4 +1,4 @@
+SELECT current_database();
 SELECT * FROM teachers;
-
-SELECT * FROM teachers
-WHERE subject = 'Math';
+TRUNCATE TABLE teachers RESTART IDENTITY;
+DROP TABLE teachers;
